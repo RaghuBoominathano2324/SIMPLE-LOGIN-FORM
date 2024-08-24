@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: sans-serif;
+}
+
+body{
+width: 100vh;
+height: 100vh;
+background-image: url(FullStackDevelopment.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+.MainCointer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    width: 50%;
+    height: 500px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter:blur(10px);
+    border-radius: 40px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 30px rgba(0 0 0 0.5);
+  
+
+}
+h2{
+    color: antiquewhite;
+    text-transform: uppercase;
+    padding:20px 0;
+    font-size: 2em;
+}
+
+.formGroup{
+  
+
+
+width: 100%;
+
+position: relative;
+border-bottom: 3px solid orange;
+transition: 0.5s;
+display: flex;
+align-items: center;
+
+
+
+}
+
+
+
+
+
+
+input:focus ~ label,
+input:valid~label{
+  top: -6px ;
+}
+
+
+
+
+
+.formGroup input{
+    width: 100%;
+    height: 50px;
+    background:transparent;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    color: rgb(221, 130, 12);
+    padding: 0 50px 0 50px;
+  
+}
+
+
+.formGroup i:hover{
+  color: yellow;
+}
+
+i:hover{
+    color: darkblue;
+    transform: 0.5s;
+}
+
+
+
+
+
+
+
+.formGroup label{
+position: absolute;
+top: 50%;
+left: 10px;
+transform:translateY(-50%);
+font-size: 1.2em;
+color: antiquewhite;
+
+}
+.formGroup i
+{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1.2em;
+}
+
+p{
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+p a{
+color: aquamarine;
+text-decoration: none;
+font-weight:600;
+
+}
+p>a:hover{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#LOGIN {
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 600px;
+    margin: 10px 0;
+    transition: 0.5s;
+}
+#FORGOTPASSWORD {
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 600px;
+    margin: 10px 0;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#LOGIN:hover{
+    background-color: rgba(0, 0, 0,0.3);
+    color: white;
+    cursor: pointer;
+} 
+#FORGOTPASSWORD:hover{
+    background-color: rgba(0, 0, 0,0.3);
+    color: white;
+    cursor: pointer;
+} 
+
+

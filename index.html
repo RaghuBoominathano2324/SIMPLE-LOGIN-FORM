@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+<body>
+<div class="MainCointer">
+<h2>LOGIN</h2>
+<p id="LOGIN"></p>
+<form action=""   id="FORM">
+<div class="formGroup">
+    <input id="EMAIL" required type="email">
+    <i class="fa-solid fa-envelope"></i>
+    <label for="">Email</label>
+    <span id="Email_Error"></span>
+</div>
+
+<div class="formGroup">
+    <input required id="PASSWORD" type="password"  >
+    <i class="fa-regular fa-eye"></i>
+    <label for="">Password</label>
+    <span id="Password_Error"></span>
+</div>
+<p><input type="checkbox" >Rember Me <a href="#">Forget Password</a></p>
+
+<input type="button" onclick="login()"     value="LOGIN" id="LOGIN" >
+<input type="button"  onclick="ForgotPassword()"     value="FORGOT PASSWORD" id="FORGOTPASSWORD">
+
+<p>Don't Have an Account?<a type="link" onclick="" href="#">Sign up</a></p>
+</form>
+
+
+</div>
+
+
+<script type="text/javascript" src="index.js" defer></script>
+    
+</body>
+</html>
